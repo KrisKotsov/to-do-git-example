@@ -20,7 +20,6 @@ function addToDo() {
         alert("Please type in some text");
     }
 }
-
 function renderToDos() {
     toDoContainerInProgress.innerHTML = "";
     toDoContainerDone.innerHTML = "";
@@ -71,3 +70,4 @@ toDoInput.addEventListener("keydown", (event) => {
     }
 });
 
+console.log('something else');
